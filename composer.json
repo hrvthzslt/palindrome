@@ -1,0 +1,22 @@
+{
+  "name": "hrvthzslt/palindrome",
+  "description": "We have to go deeper",
+  "autoload": {
+    "psr-4": {
+      "Hrvthzslt\\Palindrome\\": "src/"
+    },
+    "files": [
+      "src/Libraries/array_search.php",
+      "src/Libraries/strrev.php",
+      "src/Libraries/strtolower.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Zsolt Horváth"
+    }
+  ],
+  "require": {
+    "php": "^8.0"
+  }
+}
