@@ -11,6 +11,11 @@
       "src/Libraries/strtolower.php"
     ]
   },
+  "autoload-dev": {
+    "psr-4": {
+      "Hrvthzslt\\Palindrome\\Test\\": "test/"
+    }
+  },
   "authors": [
     {
       "name": "Zsolt Horváth"
@@ -18,5 +23,11 @@
   ],
   "require": {
     "php": "^8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.0.19"
+  },
+  "scripts": {
+    "test": "phpunit test --testdox"
   }
 }
