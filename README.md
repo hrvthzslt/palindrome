@@ -1,6 +1,6 @@
 # Palindrome
 
-Implementing palindrome solution gone deeper
+Implementing palindrome solution gone deeper. Story: https://zsolthorvath.netlify.app/posts/palindrome/
 
 ## Test
 
