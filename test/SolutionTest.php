@@ -15,7 +15,7 @@ class SolutionTest extends TestCase
         $this->assertSame($expectation, (new Solution())->isPalindrome($word));
     }
 
-    public function solutionDataProvider(): array
+    public static function solutionDataProvider(): array
     {
         return [
             'Radar is a palindrome' => [
