@@ -1,5 +1,6 @@
 {
   "name": "hrvthzslt/palindrome",
+  "version": "2",
   "description": "We have to go deeper",
   "autoload": {
     "psr-4": {
